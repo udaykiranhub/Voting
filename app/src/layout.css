@@ -1,0 +1,55 @@
+.layout-head{
+    grid-area: head;
+    /* background-image: url("backfalg.jpeg");  */
+    padding-top: 1px;
+  
+ 
+    
+}
+
+.layout-body{
+    grid-area: body;
+    /* background-image: url("backfalg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+
+}
+.layout-foot{
+grid-area: foot;
+   
+    
+}
+.layout-container{
+    display: grid;
+
+    background-color: rgb(0, 0, 0);
+    grid-template-areas:'head head head head head head'
+                        'body body body body body body'
+                        'foot foot foot foot foot foot ';
+    gap: 5px;
+
+    border: 3px solid black;
+
+   
+    
+}
+
+.layout-container>div{
+    text-align: center;
+   
+    background-image: linear-gradient(#d7e9ffbe,rgb(120, 149, 237));
+
+    
+  
+}
+
+.page-title{
+
+    background-size: 100%;
+    /* background-image: linear-gradient(orange,white, rgb(132, 206, 132)); */
+    background-image: radial-gradient(orange, white, green);
+    opacity: 5;
+}
+
+

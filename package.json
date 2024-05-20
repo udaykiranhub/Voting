@@ -1,0 +1,26 @@
+{
+  "name": "Voting_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm-run-all -p server app",
+    "server": "nodemon server.js",
+    "app": "npm start --prefix app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0",
+    "web3": "^4.8.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
